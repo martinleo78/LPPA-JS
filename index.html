@@ -1,13 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="exercises/arrays.js"></script>
+    <script src="exercises/for.js"></script>
+    <script src="exercises/functions.js"></script>
+    <script src="exercises/if_else.js"></script>
+    <script src="exercises/strings.js"></script>
+    <script src="exercises/variables_and_operators.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    
-    
+
+<body onload=" strings(); cincoonce(); aleatorio();losfor();">
+    <table class="tipotabla">
+        <tr>
+            <td>
+                <h1>Variables y Operadores</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="primer_valor">Primer número o string:</label>
+                <input id="primer_valor" type="text" name="primer_valor" value="0">
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="segundo_valor">Segundo número o string:</label>
+                <input id="segundo_valor" type="text" name="segundo_valor" value="0">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input id="boton1A" type="button" value="1.a Suma" onClick="ejercicio1a(); return false;"
+                    style="width:100px">
+                <input id="boton1B" type="button" value="1.b Concatenar" onClick="ejercicio1b(); return false;"
+                    style="width:100px">
+                <input id="boton1C" type="button" value="1.c Lenght" onClick="ejercicio1c(); return false;"
+                    style="width:100px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="resultado">Resultado:</label>
+                <input id="resultado" type="text" value="0" size="20">
+            </td>
+        </tr>
+    </table>
+    <table class="tipotabla">
+        <tr>
+            <td>
+                <h1>Strings</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="izquierda" >
+                <p id="texto_completo"><b>Original:  </b></p>
+                <p id="ejercicio2a"><b>Ejercicio2a:  </b></p>
+                <p id="ejercicio2b"><b>Ejercicio2b:  </b></p>
+                <p id="ejercicio2c"><b>Ejercicio2c:  </b></p>
+                <p id="ejercicio2d"><b>Ejercicio2d:  </b></p>
+                <p id="ejercicio2e"><b>Ejercicio2e:  </b></p>
+                <p id="ejercicio2f"><b>Ejercicio2f:  </b></p>
+            </td>
+        </tr>
+    </table>
+    <table class="tipotabla">
+        <tr>
+            <td>
+                <h1>Arrays</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="izquierda" >
+                <p id="ejercicio3a"><b>Ejercicio3a:  </b></p>
+                <p id="ejercicio3b"><b>Ejercicio3b:  </b></p>
+                <p id="ejercicio3c"><b>Ejercicio3c:  </b></p>
+                <p id="ejercicio3d"><b>Ejercicio3d:  </b></p>
+                <p id="ejercicio3e"><b>Ejercicio3e:  </b></p>
+                <p id="ejercicio3f"><b>Ejercicio3f:  </b></p>
+                <p id="ejercicio3g"><b>Ejercicio3g:  </b></p>
+            </td>
+        </tr>
+    </table>
+
 </body>
+
 </html>
